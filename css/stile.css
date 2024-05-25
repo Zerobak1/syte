@@ -1,0 +1,224 @@
+ /* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap') */
+.container{
+	width: 800px;
+	margin: 0 auto;
+}
+.price{
+	font-weight: 700;
+}
+.basket{
+	position: fixed;
+	bottom: 1%;
+	right: 1%;
+}
+.shop_img{
+width: 500px;
+}
+.shop_btn{
+	cursor: cell;
+}
+.ikswebt{display: inline-block;cursor: pointer; font-size:20px;text-decoration:none;padding:23px 23px; color:#354251;background-color: lime;border-radius:60px;border:6px solid #354251;}
+.ikswebt:hover{background:#108ee8;color:#ffffff;border:6px solid #354251;transition: all 0.8s ease;}
+.itc-slider-items{
+	text-align: center;
+}
+.menu_link{
+	cursor: pointer;
+}
+.menu{
+	background-color: rgb(86, 150, 146, 0.8) ;
+	width: 200px;
+	padding: 20px;
+	position:  absolute;
+	border-radius: 15px;
+	z-index: 2;
+display:  none;
+}
+.btn_menu{
+	border-radius:3;}
+.is_active{
+display: block;	
+}
+.header{
+border-radius: 15px;
+background-color: rgb(86, 150, 146, 0.8) ;
+}
+.nav_list{
+	list-style:none ;
+	display: flex;
+	
+}
+.nav_item{
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 15px;
+background-color: #F1BAA1;
+}
+.nav_link{
+	color: #6D8C00;
+	text-decoration: none;
+  -webkit-text-stroke: 0,1px black;
+
+font-family: 'Rubik Maps', system-ui;font-size: 25px;
+}
+.container_footer{
+	background-color:#68904D ;
+	font-family: 'Rubik Maps', system-ui;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-radius: 5px;
+}
+.footer{
+	color:#DA6A00;
+	font-size: 40px;
+}
+.nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	font-size: 50px;
+	font-family: 'Rubik Maps', system-ui;
+    color: #f5431a;
+
+
+}
+
+
+.dark{
+	background-color: black;
+	width: 30px;
+	height: 30px;
+border-radius: 90px;
+cursor: pointer;
+}
+.theme_list{
+	list-style: none;
+}
+.light{
+background-color:white;
+width: 30px;
+height: 30px;
+border-radius: 90px;
+cursor: pointer;
+}
+.burger{
+	display: none;
+}
+#MV{
+	width: 100%;
+}
+.burger_line{
+	margin: 5px;
+    width: 30px;
+    height: 5px;
+    background: #0237bdc8;
+
+}
+
+.video_content{
+	position: absolute;
+	bottom: 1%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.2);
+	color: #f5431a;
+}
+.container_video{
+	position: relative;
+}
+.video_btn{
+	transition: 2s;
+	display: flex;
+}
+.shs{
+font-size: 80px;
+}
+@media(max-width:860px)
+{
+
+	BODY{
+		overflow-x: hidden;
+	}
+	.nav_list{
+		 display: flex;
+		 flex-direction:column;
+		background-color: rgb(86, 150, 146, 0.8);
+		position: absolute;
+		right: 0;
+		height: 0vh;
+		z-index: 2;
+		top: 150px;
+		transform: translateX(100%);
+		transition: 5s ease-out;
+		}
+	.container{
+		width: 500px;
+	}
+	.active .burger_line_1{
+	transform: rotate(45deg)  translate(15px, 0px);
+}
+.active .burger_line_2{
+opacity: 0;	
+
+}
+.active .burger_line_3{
+	transform: rotate(-45deg) translate(15px, 0px);
+}
+	.burger_line{
+	transition: 2s;
+	}
+	.burger{
+	display: block;
+	
+
+	}
+	.g_map{
+		width: 100%;
+	}
+
+}
+.is_active2{
+	transform: translateX(0%);
+}
+.time{
+
+    color: skyblue;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-size: 20px;
+
+
+}
+
+	
+
+.btn_menu{
+	border-radius: 15px;
+	background-color: rgba(0, 255, 255, 40%);
+	
+}
+.iksweb{display: inline-block;cursor: pointer; font-size:20px;text-decoration:none;padding:19px 31px; color:#000000;background:#c73232;border-radius:60px;border:10px solid #316903;}
+.iksweb:hover{background:#354251;color:#ff0000;border:10px solid #354251;transition: all 1.6s ease;}
+.time_container{
+	margin: 5px;
+    width: 75px;
+    border-radius: 20px;
+    background: red;
+    margin-left: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 2px;
+	padding-bottom:2px ;
+}
+.video_btn{
+	border-radius : 30px; 
+}
+.shs{
+	font-size: 40px;
+	}
+.shop_btn{
+	cursor: cell;
+}

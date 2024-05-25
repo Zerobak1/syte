@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<style>
+
+</style>
+	<link rel="stylesheet" href="css/itc-slider.css">
+	<link rel="stylesheet" type="text/css" href="css/stile.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/accordion.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik+Maps&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class=" container container_header">
+					<nav class="nav">
+			<h1 class="	logo">neDNS</h1>
+			
+				<ul class="nav_list">
+					<li class="nav_item">
+						<a href="" class="nav_link">Главная</a>
+					</li>
+						<li class="nav_item">
+						<a href="" class="nav_link">другие компы</a>
+					</li>
+						<li class="nav_item">
+						<a href="" class="nav_link">комплектующие</a>
+					</li>
+						<li class="nav_item">
+						<a href="" class="nav_link">отзывы</a>
+					</li>
+						<li class="nav_item">
+						<a href="" class="nav_link">описание</a>
+					</li>
+				</ul>
+				<div class="burger" onclick="burgerClick()">
+					<div class="burger_line burger_line_1"></div>
+					<div class="burger_line burger_line_2"></div>
+					<div class="burger_line burger_line_3"></div>
+				</div>
+			</nav>
+				
+
+		</div>
+	</h1>
+	</nav>
+			<button class="btn_menu">Menu</button>
+			<div class="menu">
+				<ul class="menu_list">
+					<li class="menu_item">
+					<a class="menu_link">личный кабинет</a></li>
+
+					<li class="menu_item">
+					<a class="menu_link">розыгрыш</a></li>
+
+					<li class="menu_item">
+					<a class="menu_link">гланая</a></li>
+
+                    <li class="menu_item">
+					<a class="menu_link">промо</a></li>
+
+					<li class="menu_item">
+						<div class="theme">
+							<h4 class="theme_title">темы</h4>
+							<ul class="theme_list">
+								<li class="theme_item">
+									<div class="dark" onclick="choiseDark()">
+										
+									</div>
+									<div>
+									<p>
+
+									</p>
+								</div>
+									<div class="light" onclick="choiceLight()">
+										
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+
+		
+				</ul>
+
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="shop">
+	<div class="container">
+
+		<h1 class="shop_title">ТОПОВЫЙ КОМПУДАХТЕР
+		</h1>
+		<div class="itc-slider" data-slider="itc-slider" data-loop="true" data-autoplay="true" data-interval="2000">
+  <div class="itc-slider-wrapper">
+    <div class="itc-slider-items">
+      <div class="itc-slider-item">
+        <img class="shop_img" src="img/pc.png">
+      </div>
+      <div class="itc-slider-item">
+       <img class="shop_img" src="img/pc2.png">
+      </div>
+      <div class="itc-slider-item">
+       <img class="shop_img" src="img/pc3.png">
+      </div>
+    </div>
+  </div>
+  <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+  <button class="itc-slider-btn itc-slider-btn-prev"></button>
+  <button class="itc-slider-btn itc-slider-btn-next"></button>
+</div>
+<div class="accordion" id="accordion-1">
+	<div class="accordion__item">
+		<div class="accordion__header">
+			<h2 class="shop_title">Описание</h2>
+		</div>
+		<div class="accordion__body">
+			<p class="shop_text">чё ещё сказать, просто ТОПОВЫЙ пк</p>
+		</div>
+	</div>
+		<div class="accordion__item">
+		<div class="accordion__header">
+			<h2 class="shop_title">ЦЕНА</h2>
+		</div>
+		<div class="accordion__body">
+			<p class="shop_price">90000</p>
+			<p class="shop_text">рублей</p>
+			<button class="shop_btn" id="btn" onclick="buttonClick()">прикупить</button>
+		</div>
+	</div>
+</div>
+		
+		
+		
+		
+	</div>
+</section>
+<section class="maps">
+	<div class="container">
+		<h2 class="maps_title">торговый центр</h2>
+		<div class="google">
+			<h1 class="google"> Гугл - карты</h1>
+
+			<iframe class="g_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15149.34736335634!2d40.192332345479564!3d61.66504868851649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x441d42830f10f9b3%3A0x7b496e3d3bb5c55f!2z0J3Rj9C90LTQvtC80LAt0KHQuNGC0Lg!5e0!3m2!1sru!2sru!4v1705424505556!5m2!1sru!2sru" width="800" height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	
+	<h1 class="yandex">Яндекс - карты</h1>
+	<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A42514f062838a3f86004fea47e7f088ce03e8d2737b6f3c21e55ccf3710bbf7b&amp;source=constructor" width="597" height="415" frameborder="0"></iframe>
+</div>
+	</div>
+</section>
+<section class="video">
+	<div class="container container_video">
+		
+		<video id="MV" autoplay muted loop>
+			<source src="video/vid1.mp4" class="video__src" type="video/mp4">
+		</video>
+		<div class="video_content">
+		
+			<h2 class="video_title" id="video_title">
+				компы ютуберов
+			</h2>
+			<p class="video_text" id="video_text">
+				насколько мощные компы у ютуберов?
+				</p>
+				<div class="video_btn-list">
+					<button onclick=play() id="video_btn" class="video_btn iksweb"><lord-icon  id="icon_pause"
+						src="https://cdn.lordicon.com/qvyppzqz.json"
+						trigger="hover"
+						style="width:50px;height:50px">
+						
+					</lord-icon></button>
+					<button onclick="sound()" id="sound" class="video_btn iksweb"><lord-icon id="icon_mute"
+						src="https://cdn.lordicon.com/qaexljue.json"
+						trigger="hover"
+						style="width:50px;height:50px">
+					</lord-icon></button>
+					<button onclick="prev()" id="prev" class="video_btn iksweb shs"><lord-icon 
+						src="https://cdn.lordicon.com/eavayqgw.json"
+						trigger="hover"
+						style="width:50px;height:50px">
+					</lord-icon></button>
+					<button onclick="next()" id="next" class="video_btn iksweb shs">
+					<lord-icon
+						src="https://cdn.lordicon.com/usmjfnfh.json"
+						trigger="hover"
+						style="width:50px;height:50px">
+					</lord-icon></button>
+
+				</div>
+	</div>
+	</div>
+	
+</section>
+<section class="clock">
+	<div class="container time_container">
+		<p class="time" >
+			
+		</p>
+	</div>
+</section>
+
+<button class="basket ikswebt">
+	<lord-icon
+    src="https://cdn.lordicon.com/odavpkmb.json"
+    trigger="hover"
+    style="width:250px;height:250px">
+</lord-icon>
+<p class="price">0</p>
+</button>
+	</main>
+	<footer class="footer container_footer">
+		<div class="container">
+			
+			<p class="footer">
+				© все права защищены
+			</p>
+		</div>
+	</footer>
+	<script src="scripts/menu.js"></script>
+<script src="scripts/script.js"></script>
+<script src="scripts/itc-slider.js"></script>
+<script src="scripts/accordion.js"></script>
+<script src="scripts/theme.js"></script>
+<script src="scripts/burger.js"></script>
+<script src="scripts/time.js"></script>
+<script src="scripts/video-player.js"></script>
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+</body>
+</html>
